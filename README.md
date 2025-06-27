@@ -25,8 +25,7 @@
 
 ### 1. Клонирование репозитория
 \`\`\`bash
-git clone <repository-url>
-cd parserbotkege
+git clone https://github.com/nekapeep1112/menthal_math.git
 \`\`\`
 
 ### 2. Установка зависимостей

@@ -20,7 +20,6 @@ class User(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
     last_activity = Column(DateTime, default=datetime.utcnow)
     
-    # Связи
     sessions = relationship("LearningSession", back_populates="user")
     achievements = relationship("UserAchievement", back_populates="user")
     settings = relationship("UserSettings", back_populates="user", uselist=False)
